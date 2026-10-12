@@ -1,0 +1,34 @@
+================================================================================
+ML-DSA (FIPS 204) DIGITAL SIGNATURE TEST PAYLOAD
+================================================================================
+Timestamp: 2026-10-12T05:29:02Z
+Intended Algorithm Target: ML-DSA-44 / ML-DSA-65 / ML-DSA-87
+Context String (ctx): test-benchmark-v1
+Purpose: Post-Quantum Cryptography Signature Verification Test
+
+[METADATA & HEADER]
+Issuer: Local Test Harness
+Message Digest Target: Pre-hash or Direct (Pure ML-DSA)
+Encoding: UTF-8 / Raw Byte Stream
+Non-repudiation Test ID: 9f8a4b2c-e1d3-4a7b-8c6e-5f0b2a3c4d5e
+
+[MESSAGE BODY]
+This is an arbitrary payload generated specifically to validate Module-Lattice-Based
+Digital Signature Standard (ML-DSA) keypair generation, signature creation, and
+signature verification operations under FIPS 204 specifications.
+
+The message includes variable length text lines, ASCII symbols, and high-entropy
+hexadecimal blocks below to ensure signature stability across multiline buffers.
+
+[ENTROPY BLOCK 1 - 256 BITS]
+b7e41a9956c321d0fb925e01ad638e9a224c65d9f03b21849a62efd48e02bb41
+
+[ENTROPY BLOCK 2 - 512 BITS]
+4c2a8f90117b3d5e8a9f0e1c2b3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f
+7a8b9c0d1e2f3a4b5c6d7e8f90123456789abcdef0123456789abcdef0123456
+
+[ASCII BOUNDARY CHECK]
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+[TERMINATION]
+END_OF_TEST_MESSAGE_PAYLOAD
